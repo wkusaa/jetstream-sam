@@ -35,6 +35,6 @@ Route::middleware([
 });
 
 Route::get('/test', function () {
-    // return Inertia::render('Dashboard');
-    return view('test');
+    return Inertia::render('Test');
+    // return view('test');
 })->name('test');
